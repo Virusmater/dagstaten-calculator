@@ -1,0 +1,5 @@
+version: "2"
+services:
+  dagstaten-calculator:
+    build: .
+    restart: unless-stopped
