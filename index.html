@@ -74,6 +74,11 @@
                   document.getElementById("grand-total").text = Number(+totalBill + +totalRoll).toFixed(2);
 
          }
+
+        window.onbeforeunload = function (e) {
+            return "";
+        };
+
     </script>
 </head>
 <body>
